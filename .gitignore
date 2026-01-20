@@ -1,0 +1,6 @@
+data/raw
+data/processed
+.DS_Store
+output
+.venv
+Bio Oracle.egg-info

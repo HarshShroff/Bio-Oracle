@@ -1,0 +1,13 @@
+numpy>=1.24.0
+pandas>=2.0.0
+cellpose>=3.0.0
+aicsimageio>=4.10.0
+scikit-image>=0.20.0
+pydantic>=2.0.0
+pydantic-ai
+tifffile>=2023.0.0
+requests>=2.31.0
+opencv-python-headless>=4.8.0
+tqdm>=4.66.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
