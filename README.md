@@ -101,6 +101,18 @@ export GEMINI_API_KEY="your_key"
 python -m src.main --ask "Are there any outliers in the Actin channel (Ch2)?"
 ```
 
+---
+
+## **Future Expansion**
+
+To further bridge the gap between AI and Biology, the following modules are planned:
+
+1.  **PubMed RAG Integration**: Retrieve mechanism of action (MoA) data for identified outliers (e.g., *"Why does Taxol cause Actin polymerization?"*).
+2.  **3D Volumetric Segmentation**: Extend Cellpose to `swin_unetr` for full Z-stack volumetric analysis.
+3.  **Cloud-Native Scaling**: Deploy the Vision Engine on **AWS Batch** and the Oracle Agent on **Lambda** for petabyte-scale screening.
+
+---
+
 ## **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
