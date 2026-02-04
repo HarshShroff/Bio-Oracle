@@ -1,13 +1,34 @@
+# Bio-Oracle: Consolidated Dependencies
+
+# Core AI & Vision
+torch>=2.0.0
+torchvision>=0.15.0
+cellpose>=3.0.0
+opencv-python-headless>=4.8.0
+
+# Data Ingestion & Processing
+aicsimageio>=4.10.0
+tifffile>=2023.0.0
 numpy>=1.24.0
 pandas>=2.0.0
-cellpose>=3.0.0
-aicsimageio>=4.10.0
 scikit-image>=0.20.0
+pyarrow>=12.0.0
+
+# Agentic & LLM
 pydantic>=2.0.0
 pydantic-ai
-tifffile>=2023.0.0
+google-generativeai
+google-genai
+nest_asyncio
+
+# Observability
+mlflow
+arize-phoenix
+
+# Utilities
 requests>=2.31.0
-opencv-python-headless>=4.8.0
 tqdm>=4.66.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
+python-dotenv
+click
